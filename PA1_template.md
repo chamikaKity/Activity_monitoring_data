@@ -98,7 +98,7 @@ The average daily activity pattern
     plot(df2$uniqueInterval,df2$averageSteps,type = "l",xlab = "5-minute Interval",
          ylab = "Average number of steps",main = "Time series plot of the average number of steps \n taken across all days")  
 
-![](PA1_template_files/figure-markdown_strict/time%20series%20plot-1.png)
+![](figures/plot2.png)
 
 1.  Which 5-minute interval, on average across all the days in the
     dataset, contains the maximum number of steps?
@@ -154,7 +154,7 @@ Histogram
 
     hist(newdf$newTotalSteps,xlab = "Total Steps", main="Histogram of total number of steps taken each day")
 
-![](PA1_template_files/figure-markdown_strict/hist%20all%20data%20-1.png)
+![](figures/plot3.png)
 
 The mean and median of the total number of steps taken per day
 
@@ -216,4 +216,4 @@ Time series plot
 
     plot(plot3)
 
-![](PA1_template_files/figure-markdown_strict/panel%20plot-1.png)
+![](figures/plot4.png)
