@@ -65,7 +65,7 @@ Ignore the missing values in the dataset.
 
     hist(df$totalSteps,xlab = "Total Steps", main="Histogram of total number of steps taken each day")
 
-![](PA1_template_files/figure-markdown_strict/histogram%20total%20steps-1.png)
+![](figures/plot1.png)
 
 3.Calculate the mean and median of the total number of steps taken per
 day
